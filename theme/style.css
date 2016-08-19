@@ -1,0 +1,154 @@
+body {
+	background: #fafafa;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none !important;
+}
+audio {
+	background: #ddd;
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.top-info {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.thumb-logo>img {
+	width: 50%;
+	margin: 100px 0 20px 0;
+}
+.top-info>h1 {
+	font-size: 30px;
+}
+.search-form {
+	width: 70%;
+	margin: 0 auto 50px auto;
+	text-align: center;
+}
+.search-form input {
+	width: 100%;
+	outline: none;
+	box-shadow: none;
+	border-radius: 0 !important;
+}
+.search-form button {
+	border-radius: 0 !important;
+}
+.result {
+	/*margin-top: 50px;*/
+	padding: 20px;
+	width: 70%;
+	margin: 0 auto;
+	background: #F7DA8B;
+}
+.lists {
+	background: #fff;
+	/*border: 1px solid #ddd;*/ 
+	padding: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 20px .1px rgba(0,0,0,.1)
+}
+.lists-left {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+.lists-left img {
+	width: 100%;
+	min-height: 100px;
+}
+.lists-body {
+	float: left;
+}
+.lists-body>h3.title-lists {
+	margin: 0px 0px 10px 0px;
+}
+.lists-info span.icon {
+	margin: 0 7px;
+}
+.action {
+	margin-top: 15px;
+}
+.prevAction {
+	text-align: center;
+}
+.action a {
+	background: #f2f2f2;
+	color: #555;
+	box-shadow: 0px 0px 0.3px 1px #ddd;
+	margin-right: 10px;
+}
+.action a:active {
+	box-shadow: 0px 0px 0.2px 0.4px #ddd;
+}
+.pagger {
+	text-align: center;
+}		
+.description> ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin: 20px 0;
+}
+.description> ul li {
+	padding: 5px 0;
+}
+.description> ul li span {
+	font-weight: bold;
+	width: 100px;
+	display: inline-block;
+}
+.other>h2 {
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+	margin: 20px 0 0 0;
+	background: #f2f2f2;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+.other>ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.other>ul>li {
+	padding: 0 10px;
+	border-bottom: 1px solid #ddd;
+}
+.other>ul>li:last-child {
+	border: none;
+}
+@media screen and (max-width: 850px){
+	.wrapper {
+		max-width: 95%;
+	}
+	.search-form, .result {
+		width: 100%;
+	}
+	.thumb-logo>img {
+		margin: 20px 0;
+	}
+}
+@media screen and (max-width: 600px) {
+	.lists-left, .lists-body {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
