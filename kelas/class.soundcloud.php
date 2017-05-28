@@ -47,7 +47,7 @@ class Soundcloud {
 	}
 
 	public function download($id) {
-		$url = json_decode($this->grab('http://api.soundcloud.com/i1/tracks/'.$id.'/streams?client_id='.$this->$client_ID));
+		$url = json_decode($this->grab('http://api.soundcloud.com/i1/tracks/'.$id.'/streams?client_id='.$this->client_ID));
 
 		return $url->http_mp3_128_url;
 	}
