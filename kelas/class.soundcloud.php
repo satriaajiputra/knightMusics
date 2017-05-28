@@ -3,7 +3,7 @@
 /*
 
 	Created By Satria Aji Putra
-	https://web.facebook.com/aji.s.aj1555
+	https://web.facebook.com/satmaxt
 
 */
 
@@ -47,7 +47,7 @@ class Soundcloud {
 	}
 
 	public function download($id) {
-		$url = json_decode($this->grab('http://api.soundcloud.com/i1/tracks/'.$id.'/streams?client_id=99a45fcd6a56ea4d7aea237edea8500c'));
+		$url = json_decode($this->grab('http://api.soundcloud.com/i1/tracks/'.$id.'/streams?client_id='.$this->$client_ID));
 
 		return $url->http_mp3_128_url;
 	}
